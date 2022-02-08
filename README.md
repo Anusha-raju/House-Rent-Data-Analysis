@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1>House Rent Data Analysis</h1>
 
 ***AIM:* Build a model that can predict the rent of a house based on various parameters like region,sqfeet etc..,**
@@ -47,7 +48,7 @@ The null values are filled by ***Random Imputation***.
 
 **Text Analysis** is also performed on **description** column to get an idea on the user necessary trends.
 
-![](C:\Users\anusha\Desktop\Renting\word_cloud.png)
+![](https://github.com/Anusha-raju/House-Rent-Data-Analysis/blob/main/word_cloud.png)
 
 **Observations**: Most users basically need a pet friendly home, apartment type, fitness center, swimming pool, washer dryer facility.
 
@@ -56,6 +57,8 @@ The null values are filled by ***Random Imputation***.
 
 
 **Spatial Analysis** was performed to get a clear idea of where exactly houses are situated.
+
+![](https://github.com/Anusha-raju/House-Rent-Data-Analysis/blob/main/spatial_analysis.png)
 
 Other necessary **EDA (Exploratory Data Analysis)** is done for insightfull information.
 
@@ -71,21 +74,21 @@ Outliers are detected (using Boxplot and Q-Q plot) and are imputed using Statist
 
 - The price is not varying significantly with dogs/cats allowed or not.
 
-  ![](C:\Users\anusha\Desktop\Renting\dogs_or_cats_price_distribution.png)
+  ![](https://github.com/Anusha-raju/House-Rent-Data-Analysis/blob/main/dogs_or_cats_price_distribution.png)
 
 - The price is not varying significantly with furnished/not furnished homes.
 
-  ![](C:\Users\anusha\Desktop\Renting\furnished_price_distribution.png)
+  ![](https://github.com/Anusha-raju/House-Rent-Data-Analysis/blob/main/furnished_price_distribution.png)
 
 - The price is varying significantly with whether the homes are equipped with electric vehicle charger.
 
-  ![](C:\Users\anusha\Desktop\Renting\price_distribution_electric_vehicle_charge.png)
+  ![](https://github.com/Anusha-raju/House-Rent-Data-Analysis/blob/main/price_distribution_electric_vehicle_charge.png)
 
 
 
 ***Analysis of relationship between AREA and PRICE is done.***
 
-![newplot](C:\Users\anusha\Desktop\Renting\newplot.png)
+![newplot](https://github.com/Anusha-raju/House-Rent-Data-Analysis/blob/main/newplot.png)
 
 - Complex relationship between Price & sqfeet, meaning Linear Regression algorithm won't perform good
 
@@ -148,4 +151,5 @@ KNN
 
 ```
 0.7629514608107044
+
 ```
